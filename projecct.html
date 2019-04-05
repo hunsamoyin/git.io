@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home page
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/project.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<style>
+	*{
+		margin: 0px;
+		box-sizing: border-box;
+
+	}
+		.abou{
+			background: cover;
+			margin: 0px;
+			background-repeat: no-repeat;
+			height: 100px;
+			text-align: center;
+			font-size: 60px;
+			color: red;
+		}
+		.about{
+			background: cover;
+			margin: 0px;
+			background-image:url('images/evote.jpg');
+			background-repeat: no-repeat;
+			height: 500px;
+			width: 100%;
+		}
+
+		.eee{
+			display: block;
+		text-align: center;
+		margin-top: 0px;
+		font-size: 40px;
+		padding-top: 80px;
+		font-style: italic;
+		}
+		.e{
+			color: green;
+			font-style: italic;
+			font-size: 40px;
+		}
+		.evoting{
+			color: red;
+			font-style: italic;
+			font-size: 70px;
+		}
+		.hyphen{
+			font-size: 40px;
+		}
+		.neww li a,{
+	display: inline-block;
+		padding-bottom: 20px;
+}
+	.neww li{
+		float: left;
+		list-style-type: none;
+		margin-left: 20px;
+
+	}
+	a:link{
+	text-decoration: none;
+	color: black;
+	background-color: transparent;
+}
+a:visited{
+	color:brown;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:hover{
+color: green;
+border-bottom: 2px solid red;
+padding: 20px;
+}
+a:active{
+	color: red;
+	text-decoration: none;
+	background-color: green;
+}
+.main{
+	background-color: rgba(30, 200, 40, 0.4);
+	height: 500px;
+	width: 100%;
+}
+	.form{
+		text-align: center;
+		margin-top: 20px;
+	}
+	.top{
+		border-radius: 20px;
+		border:none;
+		padding: 5px 15px 5px 15px;
+		background-color: rgb(60, 170, 100);
+		color: white;
+		font-size: 25px;
+	}
+	.top:hover{
+		font-size: 60px;
+		background-color: blue;
+	}
+	#topp{
+		border-radius: 5px;
+		border:none;
+		padding: 10px 15px 10px 15px;
+
+	}
+	.footer{
+		background-color: rgba(39, 200, 30, 0.6);
+		margin-top: 100px;
+		width: 100%;
+		height: 200px;
+		display: grid;
+		grid-template-columns: 40% auto auto;
+		padding: 15px;
+	}
+	.nav li{
+		display: block;
+		margin-bottom: 15px;
+	}
+	.evotin{
+		text-align: left;
+		color: white;
+		margin-right: 150px;
+	}
+	#links{
+		color: white;
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.copy{
+		background-color: green;
+		text-align: center;
+		font-style: italic;
+		margin: 0px;
+		padding: 30px;
+	}
+	.dropdown:hover .content{
+		display: block;
+	}
+	.content a:hover{
+		background-color: rgba(200, 200, 200, 0.6);
+	}
+	.content{
+		display: none;
+	}
+	.content a{
+		display: block;
+		text-decoration: none;
+		color: blue;
+		padding: 10px 10px;
+	}
+	li.dropdown{
+		display: inline-block;
+	}
+	.reg li a{
+		padding-right: 720px;
+	}
+	.icon img{
+		border-radius: 100px;
+	}
+	.icons img{
+		border-radius: 100px;
+	}
+	.ins{
+			display:block;
+			margin-bottom: 3px;
+	}
+	.twitte{
+		display:block;
+			margin-bottom: 3px;
+	}
+	.whats{
+		display:block;
+			margin-bottom: 3px;
+	}
+	.tel{
+		display:block;
+			margin-bottom: 3px;
+	}
+	.ev{
+		margin: 0px;
+	}
+	.section{
+		
+		margin-top: 100px;
+		width: 100%;
+		height: 700px;
+		display: grid;
+		grid-template-columns: 50% 50%;
+		padding: 15px;
+	}
+	.news{
+		width: 60%;
+		height: 300px;
+		background-color: #dcdcdc;
+		margin-left: 150px;
+		border-radius:20px;
+		box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+	}
+	#up{
+		color: red;
+		text-align: center;
+		margin-top: 60px;
+		font-size: 20px;
+		margin-bottom: 20px;
+		transition: transform 2s;
+	}
+	#up:hover{
+		transform: rotate(360deg);
+	}
+	.up{
+		text-align: center;
+		margin-right: 40px;
+		margin-left: 40px;
+		margin-bottom: 40px;
+	}
+	 .section button{
+	margin-left: 170px;
+	border-radius: 20px;
+	border:none;
+	background-color: #90ee90;
+	padding: 5px;
+	position: relative;
+	animation-name:example;
+	animation-duration: 4s;
+	animation-iteration-count: 4;
+	animation-direction: alternate;
+	}
+	@keyframes example{
+		0%{background-color: #90ee90; left: 0px; top: 0px;}
+		25%{background-color: yellow; left: 50px; top: 0px;}
+		50%{background-color: red; left: 50px; top: 50px;}
+		75%{background-color: blue; left: 0px; top: 0px;}
+	}
+	
+	.ab{
+		width: 60%;
+		height: 300px;
+		background-color: #dcdcdc;
+		margin-left: 150px;
+		border-radius:20px;
+		box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+	}
+	.ad{
+		width: 60%;
+		height: 300px;
+		background-color: #dcdcdc;
+		margin-left: 150px;
+		border-radius:20px;
+		box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+	}
+	.con{
+		width: 60%;
+		height: 300px;
+		background-color: #dcdcdc;
+		margin-left: 150px;
+		border-radius:20px;
+		box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+	}
+	@media screen and (max-width:700px)
+	{
+		.reg li a{
+		padding-right: 50px;
+	}
+	
+	.evotin{
+		margin-right: 50px;
+	}
+	.evoting{
+		font-size: 50px;
+	}
+	.section button{
+		margin-left: 70px;
+	}
+	#up{
+		margin-top: 0px;
+		margin-bottom: 10px;
+	}
+	}
+	
+	</style>
+	<script type="text/javascript">
+		function myfunction(message){
+			var a111222;
+			if (!a111222)
+			
+				{
+				alert(message);
+			
+			}
+			myfunction(error)
+			{ 
+				document.getElementById("topp").innerHTML =a111222;
+			}
+		}
+	</script>
+
+</head>
+<body>
+
+	<div class="ev">
+		<img src="images/EVV.jpg" height="100px" width="100%">
+
+<div class="about">
+	<div class="main">
+	<div class="neww">
+<ul >
+	<li><a href="#">Home</a></li>
+	<li><a href="#">About</a></li>
+	<li><a href="#">Political Parties</a></li>
+	<li class="dropdown"><a href="#">Election</a>
+		<div class="content">
+		<a href="#">Check Result</a>
+		<a href="#">Officials</a>
+		<a href="#">Candidates</a>
+		<a href="#">Parties</a>
+	</div>
+	</li>
+	<div class="reg">
+	<li><a href="#">Register</a></li>
+</div>
+</ul>
+</div>
+	<div class="icon">
+		<img src="images/ins.jpg" height="20px" width="20px">
+		<img src="images/twitte.png" height="20px" width="20px">
+		<img src="images/wha
+		ts.jpg" height="20px" width="20px">
+		<img src="images/tel.png" height="20px" width="20px">
+		<img src="images/you.png" height="20px" width="20px">
+	</div>
+	<div class="eee">
+	<span class="e">e</span> <span class="hyphen">-</span> <span class="evoting">voting</span> is an online voting sysyem aimed at cubbing and possibly elimination inconsistencies encountered by the manual voting system
+</div>
+<div class="form">
+		<form>
+			<input id="topp" type="text" name="pvc" placeholder=" PVC VIN NO" required>
+			<button class="top" onclick="myfunction">
+				<a href="registration.html"> proceed to register</a></button>
+	</form>
+</div>
+</div>
+</div>
+<div class="section">
+<div class="news">
+<div class="up">
+	<p id="up" > Election Updates</p>
+	<p>To view all the Election update on the 2019 General Election as they happen . Click below to view</p>
+	</div>
+	<form>
+	<button>view</button>
+</form>
+</div>
+<div class="ab">
+	<div class="up">
+		<p id="up"> All you need to know about the 2019 General election</p>
+		<p>To get information about the 2019 General Election, click here to view</p>
+	</div>
+	<form>
+	<button>view</button>
+</form>
+</div>
+<div class="ad">
+	<div class="up">
+		<p id="up"> Advantages of the e-voting system</p>
+		<p>Aside ease of voting, there are other numerous advantages of the e-voting system, click here to view</p>
+	</div>
+	<form>
+	<button>view</button>
+</form>
+</div>
+<div class="con">
+	<div class="up">
+		<p id="up">
+			Contact Us
+		</p>
+		<p> For more information and partnership you can visit our social media pages or cal us. click here for more information</p>
+	</div>
+	<form>
+	<button>view</button>
+</form>
+</div>
+	</div>
+<div class="footer">
+		<div class="evotin">
+	<span class="e">e</span> <span class="hyphen">-</span> <span class="evoting">voting</span>
+	<p>The e-voting system was established was established in the year 2019 to among other things to make it easier for citizens if the country to vote for candidates of their choice online and also have access to the progress of the election. </p>
+	</div>
+	<div class="nav">
+		<p id="links"> Quick Links</p>
+		<ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">About</a></li>
+	<li><a href="#">Political Parties</a></li>
+	<li><a href="#">Election</a></li>
+	<li><a href="#">Register</a></li>
+</ul>
+	</div>
+	<div class="icons">
+		<div class="ins"> 
+		<img src="images/ins.jpg" height="30px" width="30px">
+		<a href="#"> Visit my instagram page</a>
+	</div>
+	<div class="twitte"> 
+		<img id="twitte" src="images/twitte.png" height="30px" width="30px"><a href="#">Connect on twitter</a> 
+	</div>
+	<div class="whats"> 
+		<img id="whats" src="images/whats.jpg" height="30px" width="30px"><a href="#"> 08129383956</a>
+	</div>
+	<div class="tel"> 
+		<img id="tel" src="images/tel.png" height="30px" width="30px"><a href="#"> 08129383956</a>
+	</div>
+	<div class="you">
+		<img src="images/you.png" height="30px" width="30px">
+		<a href="#">Connect on youtube</a> 
+	</div>
+	</div>
+</div>
+<div class="copy">
+	&copy;copyright Hunsa Moyinoluwa
+</div>
+</body>
+</html>
